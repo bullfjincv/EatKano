@@ -2,9 +2,9 @@
 <html lang="zh">
 
 <head>
-    <title>吃掉小鹿乃</title>
-    <meta itemprop="name" content="吃掉小鹿乃" />
-    <meta itemprop="description" content="新概念音游" />
+    <title>和海猫酱一起dame</title>
+    <meta itemprop="name" content="和海猫酱一起dame" />
+    <meta itemprop="description" content="黑曜石音乐节" />
     <meta charset="utf-8" />
     <meta name="viewport" content="initial-scale=1, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0, width=device-width,target-densitydpi=device-dpi" />
     <link href="./static/index.css" rel="stylesheet" type="text/css">
@@ -40,27 +40,27 @@
         <div class="welcome-bg FILL"></div>
         <div class="FILL BOX-M" style="position:absolute;top:0;left:0;right:0;bottom:0;z-index:5;">
             <div style="margin:0 8% 0 9%;">
-                <div style="font-size:2.6em; color:#FEF002;">新概念音游</div><br />
+                <div style="font-size:2.6em; color:#FEF002;">黑曜石音乐节</div><br />
                 <div id="desc" style="display: block;font-size:2.2em; color:#fff; line-height:1.5em;">
                     从最底下的开始<br />
                     看你能得多少分<br />
                 </div>
                 <br />
                 <div id="btn_group" style="display: block;">
-                    <a class="btn btn-primary btn-lg" onclick="readyBtn()">开始游戏</a>
+                    <a class="btn btn-primary btn-lg" onclick="readyBtn()">开始dame</a>
                     <br/><br/>
 
                     <div class="dropdown">
                         <a class="btn btn-secondary btn-lg" href="javascript: void(0);" role="button" id="mode" data-bs-toggle="dropdown" aria-expanded="false">普通模式</a>
                         <ul class="dropdown-menu" aria-labelledby="mode">
-                            <li><a class="dropdown-item" onclick="changeMode(MODE_NORMAL)">普通模式</a></li>
-                            <li><a class="dropdown-item" onclick="changeMode(MODE_ENDLESS)">无尽模式</a></li>
-                            <li><a class="dropdown-item" onclick="changeMode(MODE_PRACTICE)">练习模式</a></li>
+                            <li><a class="dropdown-item" onclick="changeMode(MODE_NORMAL)">普通dame</a></li>
+                            <li><a class="dropdown-item" onclick="changeMode(MODE_ENDLESS)">无尽dame</a></li>
+                            <li><a class="dropdown-item" onclick="changeMode(MODE_PRACTICE)">练习dame</a></li>
                         </ul>
                     </div>
 
                     <br/>
-                    <a class="btn btn-secondary btn-lg" onclick="show_setting()">游戏设置</a>
+                    <a class="btn btn-secondary btn-lg" onclick="show_setting()">dame设置</a>
                 </div>
                 <div id="setting" style="display: none;">
                     <div class="container mb-3">
@@ -73,7 +73,7 @@
                         <div class="input-group-prepend">
                             <span class="input-group-text" id="basic-addon1">标题</span>
                         </div>
-                        <input type="text" id="title" class="form-control" placeholder="吃掉小鹿乃">
+                        <input type="text" id="title" class="form-control" placeholder="和海猫酱一起dame">
                     </div>
                     <div class="input-group mb-3">
                         <div class="input-group-prepend">
