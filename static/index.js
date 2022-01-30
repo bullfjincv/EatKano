@@ -441,11 +441,11 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
             SubmitResults();
         }
 
-        if (cps <= 5) return '试着好好练一下？';
-        if (cps <= 8) return 'TCL';
-        if (cps <= 10)  return 'TQL';
-        if (cps <= 15) return '您';
-        return '人？';
+        if (cps <= 5) return '你的技术有待提升，这使你充满了决心';
+        if (cps <= 8) return '你灵活的手法已经超越了沙旋风，让老头们退休吧';
+        if (cps <= 10)  return '您精湛的技艺，与大帝不分伯仲！';
+        if (cps <= 15) return '您惊为天人的技艺，法老王也为之动容！';
+        return '您的名声从偏远的谢拉格到埃及神殿无人不知无人不晓！';
     }
 
     function toStr(obj) {
