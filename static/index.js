@@ -55,7 +55,7 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
     }
 
     function modeToString(m) {
-        return m === MODE_NORMAL ? "普通模式" : (m === MODE_ENDLESS ? "无尽模式" : "练习模式");
+        return m === MODE_NORMAL ? "普通dame" : (m === MODE_ENDLESS ? "无尽dame" : "练习dame");
     }
 
     w.changeMode = function(m) {
@@ -383,7 +383,7 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
     }
 
     function getBestScore(score) {
-        // 练习模式不会进入算分界面
+        // 练习dame不会进入算分界面
         let cookieName = (mode === MODE_NORMAL ? 'bast-score' : 'endless-best-score');
         let best = cookie(cookieName) ? Math.max(parseFloat(cookie(cookieName)), score) : score;
         cookie(cookieName, best.toFixed(2), 100);
